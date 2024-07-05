@@ -32,6 +32,54 @@ body {
   padding: 2rem;
 }
 
+.midBtn {
+  display: flex;
+  align-items: center;
+  gap: 20px;
+  background-color: rgb(3, 0, 31);
+  color: white;
+  padding: 8px 12px;
+  border: 1px solid gray;
+  border-radius: 10px;
+  width: 100%;
+  margin-top: 20px;
+}
+.addBtn {
+  width: 3rem;
+  height: 3rem;
+}
+.query {
+  display: flex;
+  align-items: center;
+  gap: 20px;
+  background-color: rgb(3, 0, 31);
+  color: white;
+  padding: 8px 12px;
+  border: 1px solid gray;
+  border-radius: 10px;
+  width: 100%;
+  margin-top: 1rem;
+}
+.lowerSide {
+  width: 100%;
+  height: auto;
+  border-top: 1px solid gray;
+  padding: 8px 12px;
+  margin-top: 150px;
+}
+.listItems {
+  display: flex;
+  align-items: center;
+  gap: 10px;
+  background-color: rgb(3, 0, 31);
+  color: white;
+  padding: 10px 15px;
+  border: 1px solid gray;
+  margin-bottom: 10px;
+  width: 100%;
+  border-radius: 8px;
+}
+
 /* ! main div  */
 .main {
   min-height: calc(100vh - 14rem);
